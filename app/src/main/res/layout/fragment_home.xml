@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:text="احدث العروض"
+            android:textStyle="bold"
+            />
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/sliderview"
+
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="230dp"
+            app:sliderAnimationDuration="500"
+            app:sliderAutoCycleDirection="right"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderCircularHandlerEnabled="true"
+            app:sliderIndicatorAnimationDuration="500"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="1.5dp"
+            app:sliderIndicatorSelectedColor="@android:color/black"
+            app:sliderIndicatorUnselectedColor="@android:color/darker_gray"
+            app:sliderScrollTimeInSec="3"
+            app:sliderStartAutoCycle="true"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginRight="5dp"
+            android:id="@+id/Cards_Views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#C46868"
+
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="16dp"
+            android:text="الاكثر مبيعا"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#C46868"
+            />
+
+        <View
+            android:id="@+id/viw1"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

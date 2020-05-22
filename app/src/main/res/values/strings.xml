@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">TrainingDesign</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_txt1">تسجيل</string>
+    <string name="login_txt2">الدخول</string>
+    <string name="login_txt3">هل فقدت كلمة المرور؟</string>
+    <string name="login_txt4"><u>تسجيل عضوية</u></string>
+    <string name="login_txt5">لا يوجد لدي عضوية برجاء</string>
+    <string name="login_hnt1">رقم الهاتف</string>
+    <string name="login_hnt2">كلمه السر</string>
+    <string name="login_btn1">دخول</string>
+    <string name="login_btn2">دخول زائر</string>
+
+    <string name="recovery_txt1">استرجاع</string>
+    <string name="recovery_txt2">كلمة المرور</string>
+    <string name="recovery_hnt1">رقم الجوال</string>
+    <string name="recovery_btn1">ارسال كود تأكيد</string>
+
+    <string name="register_txt1">تسجيل</string>
+    <string name="register_txt2">عضوية</string>
+    <string name="register_hnt1">الاسم الكامل</string>
+    <string name="register_hnt2">رقم الهاتف</string>
+    <string name="register_hnt3">البريد الالكتروني</string>
+    <string name="register_hnt4">كلمه السر</string>
+    <string name="register_hnt5">تأكيد كلمه السر</string>
+    <string name="register_chx1">المواقفة علي سيايسة الإستخدام</string>
+    <string name="register_btn1">تسجيل</string>
+
+    <string name="home_txt1">احدث العروض</string>
+    <string name="home_txt2">الأكثر مبيعاً</string>
+
+    <string name="card_btn2">أضف للسله</string>
+    <string name="notifications_txt1">الإشعارات</string>
+    <string name="offers_txt2">لا يوجد عروض خاصة</string>
+    <string name="offers_txt1">العروض الخاصة</string>
+    <string name="tool_back">رجوع</string>
+    <string name="tool_search">بحث</string>
+    <string name="nav_home">الصفحة الرئيسية</string>
+    <string name="nav_notification">الإشعارات</string>
+    <string name="nav_offers">العروض الخاصة</string>
+    <string name="nav_profile">صفحتي الشخصية</string>
+    <string name="store_txt1">برجاء اختيار المتجر</string>
+    <string name="card_txt1">رصيد البطاقة</string>
+    <string name="card_txt2">المتجر</string>
+</resources>
